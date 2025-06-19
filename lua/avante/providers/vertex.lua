@@ -5,7 +5,7 @@ local Gemini = require("avante.providers.gemini")
 ---@class AvanteProviderFunctor
 local M = {}
 
-M.api_key_name = "cmd:gcloud auth application-default print-access-token"
+M.api_key_name = "cmd:gcloud auth print-access-token"
 
 M.role_map = {
   user = "user",
